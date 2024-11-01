@@ -1,0 +1,100 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Victoria Ivanova
+title: Software Development Engineer
+#email: 
+#website: 
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+#twitter_username:
+#github_username:  
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+#instagram_username: 
+#linkedin_username: 
+# xing_username: jekyll
+# pinterest_username: jekyll
+#youtube_username:
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+#additional_links:
+#- title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name is Victoria and I am a software development engineer. 
+  I am most skilled in: <mark>Linux</mark>, <mark>DevOps</mark> and <mark>Photography</mark>
+
+content:
+  # - title: Projects # Title for the section
+  #  layout: list # Type of content section (list/text)
+  #  content:
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Vector Informatik
+        sub_title: Software Development Engineer
+        link: vector.com
+        caption: March 2017 - Present
+        description: | # this will include new lines to allow paragraphs
+          I am in a cloud team at Vector Infomatik, creating and maintaining cloud solutions for Vector products being used worldwide.
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Hagen University
+        caption: 2018 - 2023
+        sub_title: MSc Computer Science
+        description: | # this will include new lines to allow paragraphs
+          Master theses Treating multiple hardware faults in Static Schedules of Multi Variant Programs. Main focus Computer Systems. Selected coursework  Operating Systems, Virtual Machines, Information        Retrieval, PC Technology, Algorithms in Bioinformatics. Seminar Blockchain meets Database
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in DevSecOps and software development I regulary do
+      - Running in the vineyards
+      - Photography with my Nikon
+      - Spend time with my daughter and partner
+      
+      ![Austria mountains](/images/austria-landscape.jpg "Austria mountains")
+      *Photo taken with my Nikon camera from our last trip to Austria*
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
