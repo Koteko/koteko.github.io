@@ -73,7 +73,21 @@ content:
         caption: 2018 - 2023
         sub_title: MSc Computer Science
         description: | # this will include new lines to allow paragraphs
-          Master theses Treating multiple hardware faults in Static Schedules of Multi Variant Programs. Main focus Computer Systems. Selected coursework  Operating Systems, Virtual Machines, Information        Retrieval, PC Technology, Algorithms in Bioinformatics. Seminar Blockchain meets Database
+          Master theses Treating multiple hardware faults in Static Schedules of Multi Variant Programs. Main focus Computer Systems. Selected coursework  Operating Systems, Virtual Machines, Information Retrieval, PC Technology, Algorithms in Bioinformatics. Seminar Blockchain meets Database
+    content:
+      - layout: left
+        title: University of Stuttgart
+        caption: 2012 - 2017
+        sub_title: BSc Computer Science
+        description: |
+          Theoretical and technical foundations of computer science
+    content:
+      - layout: left
+        title: University of Hohenheim
+        caption: 2005 - 2010
+        sub_title: Biology Diploma
+        description: |
+          Virology, Microbiology, Embryonal zoology 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
